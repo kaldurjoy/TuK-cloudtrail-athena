@@ -1,0 +1,10 @@
+%% TUK Project Architecture (CloudTrail + S3 + Athena, us-east-1)
+flowchart LR
+  subgraph AWS["AWS Account (us-east-1)"]
+    CT["CloudTrail (all regions, mgmt events)"] --> S3Logs["S3: CloudTrail Logs"]
+    CT -. "Optional: Data events" .-> S3Data["S3 Buckets"]
+    Athena["Amazon Athena"] --> Glue["AWS Glue Data Catalog"]
+    Athena -->|"Query logs"| S3Logs
+    Athena -->|"Results"| S3Results["S3: Athena Results"]
+  end
+  User["You / Analyst"] -->|"SQL (Athena queries)"| Athena
