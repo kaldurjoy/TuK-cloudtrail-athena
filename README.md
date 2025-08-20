@@ -32,14 +32,14 @@ flowchart LR
 ---
 
 ## 📸 Screenshots
-![Athena Eventtime Query](screenshots/athena-eventtime-query.jpg)
-![Athena Table Created](screenshots/athena-table-created.jpg)
-![Cloudtrail](screenshots/cloudtrail.jpg)
-![Cloudtrail Event History](screenshots/cloudtrail-event-history.jpg)
-![Console Login Query](screenshots/console-login-query.jpg)
-![S3 Buckets](screenshots/s3-buckets.jpg)
-![Top Service Used 1Day](screenshots/top-service-used-1day.jpg)
-![Top Service Used 7Days](screenshots/top-service-used-7days.jpg)
+![Athena eventtime query](screenshots/athena-eventtime-query.jpg)
+![Athena table created](screenshots/athena-table-created.jpg)
+![CloudTrail](screenshots/cloudtrail.jpg)
+![CloudTrail event history](screenshots/cloudtrail-event-history.jpg)
+![Console login query](screenshots/console-login-query.jpg)
+![S3 buckets](screenshots/s3-buckets.jpg)
+![Top service used – 1 day](screenshots/top-service-used-1day.jpg)
+![Top service used – 7 days](screenshots/top-service-used-7days.jpg)
 
 
 ---
