@@ -20,6 +20,7 @@ flowchart LR
     Athena -->|"Results"| S3Results["S3: Athena Results"]
   end
   User["You / Analyst"] -->|"SQL (Athena queries)"| Athena
+
 ```
 
 **Workflow:**
